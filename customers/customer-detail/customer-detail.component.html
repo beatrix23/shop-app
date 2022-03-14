@@ -1,0 +1,25 @@
+<div *ngIf="customer">
+  <h2>Customer {{customer.firstName}} details</h2>
+  <div>
+    <label>First Name: </label> {{customer.firstName}}
+    <input [(ngModel)]="customer.firstName" placeholder="firstName">
+  </div>
+  <div>
+    <label>Last Name: </label> {{customer.lastName}}
+    <input [(ngModel)]="customer.lastName" placeholder="lastName">
+  </div>
+  <div>
+    <label>Address: </label> {{customer.address}}
+    <input [(ngModel)]="customer.address" placeholder="address">
+  </div>
+  <div>
+    <label>Phone number: </label> {{customer.phone}}
+    <input [(ngModel)]="customer.phone" placeholder="phone">
+  </div>
+  <div>
+    <label>Email: </label> {{customer.email}}
+    <input [(ngModel)]="customer.email" placeholder="email">
+  </div>
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>

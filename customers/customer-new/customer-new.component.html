@@ -1,0 +1,9 @@
+<div>
+  <label>First name: <input #firstName></label><br>
+  <label>Last Name: <input #lastName></label><br>
+  <label>Address: <input #address></label><br>
+  <label>Phone: <input #phone></label><br>
+  <label>Email: <input #email></label><br>
+
+  <button (click)="saveCustomer(firstName.value,lastName.value, address.value, phone.value, email.value)">Save</button>
+</div>

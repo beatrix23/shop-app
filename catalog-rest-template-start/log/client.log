@@ -1,0 +1,75 @@
+2022-01-26T14:10:43,914 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T14:10:44,050 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[{id=4, name=asd, price=54.0, comment=qwert}, {id=8, name=test1, price=12.0, comment=wer}, {id=7, name=milk, price=45.0, comment=milky}, {id=6, name=cottage, price=12.0, comment=cheese}]) 
+2022-01-26T14:12:44,394 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T14:12:44,734 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[{id=4, name=asd, price=54.0, comment=qwert}, {id=8, name=test1, price=12.0, comment=wer}, {id=7, name=milk, price=45.0, comment=milky}, {id=6, name=cottage, price=12.0, comment=cheese}]) 
+2022-01-26T14:23:44,898 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T14:23:45,028 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=8), name=test1, price=12.0, comment=wer), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=4), name=asd, price=54.0, comment=qwert)]) 
+2022-01-26T15:24:36,439 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T15:24:36,822 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=8), name=test1, price=12.0, comment=wer), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=4), name=asd, price=54.0, comment=qwert)]) 
+2022-01-26T15:24:48,543 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:28:55,787 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:29:25,416 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T15:29:25,545 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=4), name=asd, price=54.0, comment=qwert), ProductDto(super=BaseDto(id=8), name=test1, price=12.0, comment=wer), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky)]) 
+2022-01-26T15:29:41,534 TRACE [main]: ProductServiceClient                 - product's id=6 
+2022-01-26T15:31:20,549 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:43:14,599 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:44:46,624 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:49:41,924 TRACE [main]: ProductServiceClient                 - product's id=7 
+2022-01-26T15:49:42,353 TRACE [main]: ProductServiceClient                 - productDto=ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky) 
+2022-01-26T15:50:07,085 TRACE [main]: CategoryServiceClient                - getAllCategories --- method started 
+2022-01-26T15:50:07,368 TRACE [main]: CategoryServiceClient                - category dtos=Dtos(dtos=[CategoryDto(super=BaseDto(id=5), name=cheese, description=cheesy), CategoryDto(super=BaseDto(id=3), name=fish, description=random)]) 
+2022-01-26T15:50:21,205 TRACE [main]: CategoryServiceClient                - category's id=3 
+2022-01-26T15:51:02,249 TRACE [main]: CategoryServiceClient                - category's id=3 
+2022-01-26T15:51:02,452 TRACE [main]: CategoryServiceClient                - categoryDto=CategoryDto(super=BaseDto(id=3), name=fish, description=random) 
+2022-01-26T15:52:06,493 TRACE [main]: ProductServiceClient                 - add product --- method started 
+2022-01-26T15:52:06,758 TRACE [main]: ProductServiceClient                 - productDto=ProductDto(super=BaseDto(id=null), name=apple, price=3.0, comment=golden) 
+2022-01-26T15:52:14,544 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T15:52:14,568 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden), ProductDto(super=BaseDto(id=8), name=test1, price=12.0, comment=wer), ProductDto(super=BaseDto(id=4), name=asd, price=54.0, comment=qwert)]) 
+2022-01-26T15:52:54,848 TRACE [main]: ProductServiceClient                 - update product --- method started 
+2022-01-26T15:53:01,905 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T15:53:01,914 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=4), name=chocolate, price=2.0, comment=dark), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=8), name=test1, price=12.0, comment=wer), ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden)]) 
+2022-01-26T15:53:29,128 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-26T15:53:29,133 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=4), name=chocolate, price=2.0, comment=dark), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese)]) 
+2022-01-26T15:53:38,197 TRACE [main]: ProductServiceClient                 - product's id=9 
+2022-01-26T15:53:38,202 TRACE [main]: ProductServiceClient                 - productDto=ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden) 
+2022-01-26T15:54:27,578 TRACE [main]: CustomerServiceClient                - addCustomer --- method started 
+2022-01-26T15:54:27,613 TRACE [main]: CustomerServiceClient                - customerDto =CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234) 
+2022-01-26T15:54:33,616 TRACE [main]: CustomerServiceClient                - getAllCustomers --- method started 
+2022-01-26T15:54:33,627 TRACE [main]: CustomerServiceClient                - customers dtos =Dtos(dtos=[CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234)]) 
+2022-01-26T15:55:14,904 TRACE [main]: CustomerServiceClient                - addCustomer --- method started 
+2022-01-26T15:55:14,915 TRACE [main]: CustomerServiceClient                - customerDto =CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123) 
+2022-01-26T15:55:24,979 TRACE [main]: CustomerServiceClient                - getAllCustomers --- method started 
+2022-01-26T15:55:24,984 TRACE [main]: CustomerServiceClient                - customers dtos =Dtos(dtos=[CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123), CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234)]) 
+2022-01-26T15:55:52,174 TRACE [main]: CustomerServiceClient                - addCustomer --- method started 
+2022-01-26T15:55:52,184 TRACE [main]: CustomerServiceClient                - customerDto =CustomerDto(super=BaseDto(id=12), firstName=a, lastName=a, address=a, phone=a@a, email=1234567890) 
+2022-01-26T15:56:12,304 TRACE [main]: CustomerServiceClient                - getAllCustomers --- method started 
+2022-01-26T15:56:12,311 TRACE [main]: CustomerServiceClient                - customers dtos =Dtos(dtos=[CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123), CustomerDto(super=BaseDto(id=12), firstName=a, lastName=a, address=a, phone=a@a, email=1234567890), CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234)]) 
+2022-01-26T15:56:37,481 TRACE [main]: CustomerServiceClient                - updateCustomer --- method started 
+2022-01-26T15:56:37,481 TRACE [main]: CustomerServiceClient                - customer dto=CustomerDto(super=BaseDto(id=12), firstName=b, lastName=b, address=b, phone=b@b, email=1234567890) 
+2022-01-26T15:56:37,481 TRACE [main]: CustomerServiceClient                - customer id=12 
+2022-01-26T15:56:44,519 TRACE [main]: CustomerServiceClient                - getAllCustomers --- method started 
+2022-01-26T15:56:44,524 TRACE [main]: CustomerServiceClient                - customers dtos =Dtos(dtos=[CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123), CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234), CustomerDto(super=BaseDto(id=12), firstName=b, lastName=b, address=b, phone=b@b, email=1234567890)]) 
+2022-01-26T15:57:04,660 TRACE [main]: CustomerServiceClient                - getAllCustomers --- method started 
+2022-01-26T15:57:04,666 TRACE [main]: CustomerServiceClient                - customers dtos =Dtos(dtos=[CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123), CustomerDto(super=BaseDto(id=10), firstName=Ion, lastName=Ionel, address=Cluj, phone=ionut@yahoo.com, email=0741231234)]) 
+2022-01-26T15:57:14,726 TRACE [main]: CustomerServiceClient                - customer's id=11 
+2022-01-26T15:57:14,730 TRACE [main]: CustomerServiceClient                - customerDto=CustomerDto(super=BaseDto(id=11), firstName=Maria, lastName=Maricica, address=Maramures, phone=mary@yahoo.com, email=0769879123) 
+2022-01-26T15:57:24,811 TRACE [main]: CategoryServiceClient                - getAllCategories --- method started 
+2022-01-26T15:57:24,816 TRACE [main]: CategoryServiceClient                - category dtos=Dtos(dtos=[CategoryDto(super=BaseDto(id=5), name=cheese, description=cheesy), CategoryDto(super=BaseDto(id=3), name=fish, description=random)]) 
+2022-01-26T15:57:35,899 TRACE [main]: CategoryServiceClient                - addCategory --- method started 
+2022-01-26T15:57:35,919 TRACE [main]: CategoryServiceClient                - category dto=CategoryDto(super=BaseDto(id=13), name=dele, description=ddd) 
+2022-01-26T15:57:43,972 TRACE [main]: CategoryServiceClient                - getAllCategories --- method started 
+2022-01-26T15:57:43,978 TRACE [main]: CategoryServiceClient                - category dtos=Dtos(dtos=[CategoryDto(super=BaseDto(id=5), name=cheese, description=cheesy), CategoryDto(super=BaseDto(id=13), name=dele, description=ddd), CategoryDto(super=BaseDto(id=3), name=fish, description=random)]) 
+2022-01-26T15:58:00,095 TRACE [main]: CategoryServiceClient                - updateCategory --- method started 
+2022-01-26T15:58:05,134 TRACE [main]: CategoryServiceClient                - getAllCategories --- method started 
+2022-01-26T15:58:05,139 TRACE [main]: CategoryServiceClient                - category dtos=Dtos(dtos=[CategoryDto(super=BaseDto(id=3), name=fish, description=random), CategoryDto(super=BaseDto(id=13), name=rrr, description=rrr), CategoryDto(super=BaseDto(id=5), name=cheese, description=cheesy)]) 
+2022-01-26T15:58:16,201 TRACE [main]: CategoryServiceClient                - category's id=13 
+2022-01-26T15:58:16,206 TRACE [main]: CategoryServiceClient                - categoryDto=CategoryDto(super=BaseDto(id=13), name=rrr, description=rrr) 
+2022-01-26T15:58:23,242 TRACE [main]: CategoryServiceClient                - deleteCategory --- method started 
+2022-01-26T15:58:27,280 TRACE [main]: CategoryServiceClient                - getAllCategories --- method started 
+2022-01-26T15:58:27,287 TRACE [main]: CategoryServiceClient                - category dtos=Dtos(dtos=[CategoryDto(super=BaseDto(id=3), name=fish, description=random), CategoryDto(super=BaseDto(id=5), name=cheese, description=cheesy)]) 
+2022-01-29T16:54:59,418 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-29T16:54:59,533 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=4), name=chocolate, price=2.0, comment=dark)]) 
+2022-01-29T17:06:13,409 TRACE [main]: ProductServiceClient                 - add product --- method started 
+2022-01-29T17:06:13,690 TRACE [main]: ProductServiceClient                 - productDto=ProductDto(super=BaseDto(id=null), name=test, price=89.0, comment=test) 
+2022-01-29T17:06:16,441 TRACE [main]: ProductServiceClient                 - getAllProducts --- method started 
+2022-01-29T17:06:16,450 TRACE [main]: ProductServiceClient                 - product dtos =Dtos(dtos=[ProductDto(super=BaseDto(id=14), name=test, price=89.0, comment=test), ProductDto(super=BaseDto(id=4), name=chocolate, price=2.0, comment=dark), ProductDto(super=BaseDto(id=6), name=cottage, price=12.0, comment=cheese), ProductDto(super=BaseDto(id=7), name=milk, price=45.0, comment=milky), ProductDto(super=BaseDto(id=9), name=apple, price=3.0, comment=golden)]) 
